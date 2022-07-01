@@ -66,8 +66,13 @@ img{
     list-style: none;
 }
 
+.nav-menu-item:not(:first-child),
+.contacts-item:not(:first-child){
+    margin-left: 50px;
+}
+
 .nav-menu{
-    margin-left: 70px;
+    margin-left: 95px;
 }
 
 
@@ -77,7 +82,8 @@ img{
     color: inherit;
 
     display: inline-block;
-    padding: 32px 25px;
+    padding: 32px 0;
+    
 }
 
 .nav-menu .link:hover,
@@ -93,7 +99,8 @@ img{
     color: var(--secondary-text-color);
 
     display: inline-block;
-    padding: 32px 25px;
+    padding: 32px 0;
+
 }
 
 .nav-menu .current{
@@ -125,6 +132,13 @@ img{
     color:var(--white-color);
 
     margin-bottom: 30px;
+
+/*  правильна позиція текста без br */
+    /* margin-left: auto;
+    margin-right: auto;
+
+    width: 60%; */
+/* ******************************** */
 }
 
 .btn{
@@ -143,6 +157,7 @@ img{
 
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: none;
 }
 
 /********** our-peculiarities *********/
@@ -229,8 +244,6 @@ img{
     text-align: center;
 
     background-color:var(--background-main-color);
-    padding-bottom: 30px;
-
 
     width: calc((100% - 90px) / 4);
     
@@ -241,8 +254,9 @@ img{
 .team-memders-item:not(:first-child){
     margin-left: 30px;
 }
-.member-photo{
-    margin-bottom: 30px;
+
+.team-members-item-footer{
+    padding: 30px 0;
 }
 
 .team-member-name{
@@ -332,6 +346,8 @@ img{
     letter-spacing: 0.06em;
 
     color: var(--primary-text-color);
+
+    margin-bottom: 4px;
 }
 .portfolio-examples-text{
     font-size: 16px;
