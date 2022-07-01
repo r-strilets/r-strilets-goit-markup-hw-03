@@ -42,80 +42,100 @@
         </div>
     </header>
     <main>
-        <section class="portfolio">
-            <h1 class="potfolio-title hidden">Наши работы</h1>
-            <ul class="filter-buttons">
-                <li><button type="button" class="filter-button active">Все</button></li>
-                <li><button type="button" class="filter-button">Веб-сайты</button></li>
-                <li><button type="button" class="filter-button">Приложения</button></li>
-                <li><button type="button" class="filter-button">Дизайн</button></li>
-                <li><button type="button" class="filter-button">Маркетинг</button></li>
-            </ul>
-            <ul class="portfolio-examples">
-                <li>
-					<a href="" class="link">
-                        <img src="./images/portfolio-example-item_1.jpg" alt="Технокряк" width="370">
-                        <h2 class="portfolio-examples-title">Технокряк</h2>
-                        <p class="portfolio-examples-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
-                        <h2 class="portfolio-examples-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="portfolio-examples-text">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_3.jpg" alt="Ресторан Seafood" width="370">
-                        <h2 class="portfolio-examples-title">Ресторан Seafood</h2>
-                        <p class="portfolio-examples-text">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_4.jpg" alt="Проект Prime" width="370">
-                        <h2 class="portfolio-examples-title">Проект Prime</h2>
-                        <p class="portfolio-examples-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_5.jpg" alt="Проект Boxes" width="370">
-                        <h2 class="portfolio-examples-title">Проект Boxes</h2>
-                        <p class="portfolio-examples-text">Приложение</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_6.jpg" alt="Inspiration has no Borders" width="370">
-                        <h2 class="portfolio-examples-title">Inspiration has no Borders</h2>
-                        <p class="portfolio-examples-text">Веб-сайт</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_7.jpg" alt="Издание Limited Edition" width="370">
-                        <h2 class="portfolio-examples-title">Издание Limited Edition</h2>
-                        <p class="portfolio-examples-text">Дизайн</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_8.jpg" alt="Проект LAB" width="370">
-                        <h2 class="portfolio-examples-title">Проект LAB</h2>
-                        <p class="portfolio-examples-text">Маркетинг</p>
-                    </a>
-                </li>
-                <li>
-                    <a href="" class="link">
-                        <img src="./images/portfolio-example-item_9.jpg" alt="Growing Business" width="370">
-                        <h2 class="portfolio-examples-title">Growing Business</h2>
-                        <p class="portfolio-examples-text">Приложение</p>
-                    </a>
-                </li>
-            </ul>
+        <section class="section portfolio">
+            <div class="container">
+                <h1 class="potfolio-title visually-hidden">Наши работы</h1>
+                <ul class="filter-buttons">
+                    <li class="filter-buttons-item"><button type="button" class="filter-button active">Все</button></li>
+                    <li class="filter-buttons-item"><button type="button" class="filter-button">Веб-сайты</button></li>
+                    <li class="filter-buttons-item"><button type="button" class="filter-button">Приложения</button></li>
+                    <li class="filter-buttons-item"><button type="button" class="filter-button">Дизайн</button></li>
+                    <li class="filter-buttons-item"><button type="button" class="filter-button">Маркетинг</button></li>
+                </ul>
+                <ul class="portfolio-examples">
+                    <li class="portfolio-examples-item"> 
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_1.jpg" alt="Технокряк" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Технокряк</h2>
+                                <p class="portfolio-examples-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_2.jpg" alt="Постер New Orlean vs Golden Star" width="370">
+                            <div class="portfolio-example-item-footer">  
+                                <h2 class="portfolio-examples-title">Постер New Orlean vs Golden Star</h2>
+                                <p class="portfolio-examples-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_3.jpg" alt="Ресторан Seafood" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Ресторан Seafood</h2>
+                                <p class="portfolio-examples-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_4.jpg" alt="Проект Prime" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Проект Prime</h2>
+                                <p class="portfolio-examples-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_5.jpg" alt="Проект Boxes" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Проект Boxes</h2>
+                                <p class="portfolio-examples-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_6.jpg" alt="Inspiration has no Borders" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Inspiration has no Borders</h2>
+                                <p class="portfolio-examples-text">Веб-сайт</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_7.jpg" alt="Издание Limited Edition" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Издание Limited Edition</h2>
+                                <p class="portfolio-examples-text">Дизайн</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_8.jpg" alt="Проект LAB" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Проект LAB</h2>
+                                <p class="portfolio-examples-text">Маркетинг</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="portfolio-examples-item">
+                        <a href="" class="link">
+                            <img src="./images/portfolio-example-item_9.jpg" alt="Growing Business" width="370">
+                            <div class="portfolio-example-item-footer">
+                                <h2 class="portfolio-examples-title">Growing Business</h2>
+                                <p class="portfolio-examples-text">Приложение</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="footer">
