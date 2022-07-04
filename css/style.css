@@ -131,14 +131,12 @@ img{
 
     color:var(--white-color);
 
-    margin-bottom: 30px;
+    width: 693px;
 
-/*  правильна позиція текста без br */
-    /* margin-left: auto;
+    margin-bottom: 30px;
+    margin-left: auto;
     margin-right: auto;
 
-    width: 60%; */
-/* ******************************** */
 }
 
 .btn{
